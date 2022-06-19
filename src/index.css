@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@1,100&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(0, 183, 255); */
+  background-color: #fff2cd;
+}
+.page{
+  padding-top: 100px;
+}
+.side-menu {
+  width: 60%;
+}
+.side-menu-buttons{
+  font-size: 35px;
+  /* color: #fff !important; */
+}
+.navbar-custom{
+  padding: 25px 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* border: 1px solid #000; */
+
+  
+  /* transition: background 1s; */
+  /* transition-delay: 1s; */
+  transition-duration: 50ms;
+  transition-property: background;
+  transition-timing-function: linear;
+
+}
+.no-bg{
+  background: none;
+  color: #fff;
+}
+.yes-bg{
+  background-color: #fff;
+}
+.text-primary-custom{
+  color: rgb(0, 183, 255);
+}
+.sidebar-link{
+  width: auto;
+  margin: 25px 10px;
+  padding: 10px;
+  text-align: center;
+}
+.sidebar-link-tag{
+  text-decoration: none;
+  color: #333;
+}
+.sidebar-link-tag:hover{
+  text-decoration: none;
+  color: #333;
+}
+.header-title{
+  text-decoration: none !important;
+  font-weight: bold;
+  /* color: inherit; */
+  /* margin: 10px 0; */
+  font-size: 150%;
+}
+.hero{
+  min-height: 300px;
+}
+.carousel-caption{
+  border: 1px solid #fff
+}
+.call-to-action{
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff !important;
+  text-decoration: none !important;
+
+}
+.secondary-bg{
+  background-color: rgb(7, 159, 179) !important
+} 
+.secondary-font{
+  color: rgb(7, 159, 179);
+}
+.sub-body{
+  /* background-color: #fff; */
+  border-radius: 10% !important;
+  /* border-top-right-radius: 10% !important; */
+  min-height: 100vh;
+  padding: 10px;
+}
+@media only screen and (min-width: '600px'){
+  .sub-body{
+    padding: 30px
+  }
+}
+@media only screen and (min-width: '900px'){
+  .sub-body{
+    padding: 50px
+  }
+}
+.input-fields{
+  width: 100% !important;
+}
+.heading-title{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc
+}
